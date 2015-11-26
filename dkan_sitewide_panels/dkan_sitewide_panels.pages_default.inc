@@ -1386,16 +1386,19 @@ function dkan_sitewide_panels_default_page_manager_pages() {
     $display->content['new-11969a4b-795a-40df-8d66-91f6daec6c20'] = $pane;
     $display->panels['top-second'][2] = 'new-11969a4b-795a-40df-8d66-91f6daec6c20';
     $pane = new stdClass();
-    $pane->pid = 'new-751ad90d-c9d2-4790-ba0e-8656ab2aa661';
+    $pane->pid = 'new-848abba4-5c9d-41c2-adc0-23232b1c909d';
     $pane->panel = 'top-second';
-    $pane->type = 'block';
-    $pane->subtype = 'block-2';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => '',
-      'override_title_heading' => 'h2',
+      'admin_title' => 'Homepage buttons',
+      'title' => '',
+      'body' => '<a href="/topic-1" class="process"><span>Information on Topic 1</span><span><i class="fa fa-eye"></i>Topic 1</span></a><a href="/topic-2" class="indicators"><span>Information on Topic 2</span><span><i class="fa fa-check-square-o"></i>Topic 2</span></a>
+<a href="/topic-3" class="indicators"><span>Information on Topic 3</span><span><i class="fa fa-calculator"></i>Topic 3</span></a>',
+      'format' => 'html',
+      'substitute' => TRUE,
     );
     $pane->cache = array();
     $pane->style = array(
@@ -1405,9 +1408,9 @@ function dkan_sitewide_panels_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 3;
     $pane->locks = array();
-    $pane->uuid = '751ad90d-c9d2-4790-ba0e-8656ab2aa661';
-    $display->content['new-751ad90d-c9d2-4790-ba0e-8656ab2aa661'] = $pane;
-    $display->panels['top-second'][3] = 'new-751ad90d-c9d2-4790-ba0e-8656ab2aa661';
+    $pane->uuid = '848abba4-5c9d-41c2-adc0-23232b1c909d';
+    $display->content['new-848abba4-5c9d-41c2-adc0-23232b1c909d'] = $pane;
+    $display->panels['top-second'][3] = 'new-848abba4-5c9d-41c2-adc0-23232b1c909d';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-e9a59ddf-15b0-4a29-8ef6-ef460ba539e0';
   $handler->conf['display'] = $display;
