@@ -1398,8 +1398,9 @@ function dkan_sitewide_panels_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Homepage buttons',
       'title' => '',
-      'body' => '<a href="/topic-1" class="process"><span>Information on Topic 1</span><span><i class="fa fa-eye"></i>Topic 1</span></a><a href="/topic-2" class="indicators"><span>Information on Topic 2</span><span><i class="fa fa-check-square-o"></i>Topic 2</span></a>
-<a href="/topic-3" class="indicators"><span>Information on Topic 3</span><span><i class="fa fa-calculator"></i>Topic 3</span></a>',
+      'body' => '<a href="/topic-1" class="process"><span>Information on Topic 1</span><span><i class="fa fa-eye"></i>Topic 1</span></a>
+<a href="/topic-2" class="indicators"><span>Information on Topic 2</span><span><i class="fa fa-check-square-o"></i>Topic 2</span></a>
+<a href="/topic-3" class="indicators"><span>Information on Topic 3</span><span><i class="fa fa-university"></i>Topic 3</span></a>',
       'format' => 'html',
       'substitute' => TRUE,
     );
