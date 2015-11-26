@@ -1297,16 +1297,19 @@ function dkan_sitewide_panels_default_page_manager_pages() {
     $display->content['new-d3655ff2-8c3c-4a0b-b492-8aa98ea1b7f3'] = $pane;
     $display->panels['top-first'][0] = 'new-d3655ff2-8c3c-4a0b-b492-8aa98ea1b7f3';
     $pane = new stdClass();
-    $pane->pid = 'new-790d7254-dc20-4ddf-9bbd-f8f07034b905';
+    $pane->pid = 'new-7c4a1da4-0735-4496-bcbf-eed6f45c3b65';
     $pane->panel = 'top-first';
-    $pane->type = 'block';
-    $pane->subtype = 'block-1';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => '',
-      'override_title_heading' => 'h2',
+      'admin_title' => 'DKAN Description',
+      'title' => '',
+      'body' => '<center><p><strong><h2><color = "#ffffff">DKAN Welcome</color></h2></strong></p></center>
+<p><strong>DKAN Introduction</strong></p>',
+      'format' => 'html',
+      'substitute' => TRUE,
     );
     $pane->cache = array();
     $pane->style = array(
@@ -1316,9 +1319,9 @@ function dkan_sitewide_panels_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $pane->uuid = '790d7254-dc20-4ddf-9bbd-f8f07034b905';
-    $display->content['new-790d7254-dc20-4ddf-9bbd-f8f07034b905'] = $pane;
-    $display->panels['top-first'][1] = 'new-790d7254-dc20-4ddf-9bbd-f8f07034b905';
+    $pane->uuid = '7c4a1da4-0735-4496-bcbf-eed6f45c3b65';
+    $display->content['new-7c4a1da4-0735-4496-bcbf-eed6f45c3b65'] = $pane;
+    $display->panels['top-first'][1] = 'new-7c4a1da4-0735-4496-bcbf-eed6f45c3b65';
     $pane = new stdClass();
     $pane->pid = 'new-e9a59ddf-15b0-4a29-8ef6-ef460ba539e0';
     $pane->panel = 'top-second';
