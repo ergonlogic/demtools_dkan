@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ndi_dkan_question_topics feature.
+ */
+
+include_once 'ndi_dkan_question_topics.features.inc';
