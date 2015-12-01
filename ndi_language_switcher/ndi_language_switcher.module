@@ -5,3 +5,12 @@
  */
 
 include_once 'ndi_language_switcher.features.inc';
+
+/**
+ * Implements hook_block_view_MODULE_DELTA_alter().
+ */
+function ndi_language_switcher_block_view_locale_language_alter(&$data, $block) {
+  // Remove the title from the language switcher block.
+  // N.B. This is not exportable via Features. See: https://www.drupal.org/node/795058.
+  $data['subject'] = '';
+}

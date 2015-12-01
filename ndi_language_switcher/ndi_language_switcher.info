@@ -8,4 +8,3 @@ dependencies[] = locale
 features[context][] = ndi_language_switcher
 features[ctools][] = context:context:3
 features[features_api][] = api:2
-project path = sites/dev-liz.demcloud.org/modules/ndi_dkan_additions
