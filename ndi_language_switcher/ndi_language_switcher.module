@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NDI Language_switcher feature.
+ */
+
+include_once 'ndi_language_switcher.features.inc';
