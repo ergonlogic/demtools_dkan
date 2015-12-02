@@ -1,0 +1,12 @@
+name = NDI DKAN Languages
+description = Languages to enable on NDI DKAN sites.
+core = 7.x
+package = NDI DKAN
+dependencies[] = features
+dependencies[] = locale
+features[features_api][] = api:2
+features[language][] = ar
+features[language][] = en
+features[language][] = es
+features[language][] = fr
+features[language][] = ru
