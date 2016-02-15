@@ -1,0 +1,10 @@
+name = DemTools DKAN
+description = Additions to DKAN for DemTools (http://dem.tools/dkan)
+core = 7.x
+package = DemTools
+
+dependencies[] = demtools
+dependencies[] = ndi_dkan_languages
+dependencies[] = ndi_dkan_question_topics
+dependencies[] = ndi_dkan_translations
+dependencies[] = ndi_language_switcher

@@ -1,7 +1,8 @@
 name = Question topics
 description = Sample topics and question.
 core = 7.x
-package = NDI DKAN
+package = DemTools
+
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = dkan_sitewide

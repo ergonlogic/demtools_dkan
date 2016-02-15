@@ -1,7 +1,8 @@
-name = NDI Language_switcher
-description = Add a language switcher block sitewide
+name = Language Switcher
+description = A sitewide language switcher menu
 core = 7.x
-package = NDI DKAN
+package = DemTools
+
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = locale

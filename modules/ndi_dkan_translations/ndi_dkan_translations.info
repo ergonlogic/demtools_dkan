@@ -1,7 +1,8 @@
-name = NDI DKAN Translations
-description = Translations and settings
+name = DemTools DKAN Translations
+description = Translations and settings.
 core = 7.x
-package = NDI DKAN
+package = DemTools
+
 dependencies[] = features
 dependencies[] = i18n_block
 dependencies[] = i18n_field

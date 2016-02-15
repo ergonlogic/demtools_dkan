@@ -1,7 +1,8 @@
-name = NDI DKAN Languages
-description = Languages to enable on NDI DKAN sites.
+name = DemTools DKAN Languages
+description = Languages to enable on DemTools DKAN sites.
 core = 7.x
-package = NDI DKAN
+package = DemTools
+
 dependencies[] = features
 dependencies[] = locale
 features[features_api][] = api:2
