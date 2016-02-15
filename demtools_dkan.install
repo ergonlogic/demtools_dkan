@@ -4,7 +4,15 @@
  * Implements hook_install().
  */
 function demtools_dkan_install() {
+
   variable_set('site_name', 'DKAN | English');
+
+  // Use our custom theme.
+  theme_enable(array('demtools_dkan'));
+  variable_set('theme_default', 'demtools_dkan');
+
+  // Revert our custom Features.
   $features = demtools_get_features('demtools_dkan');
   demtools_revert_features($features) {
+
 }

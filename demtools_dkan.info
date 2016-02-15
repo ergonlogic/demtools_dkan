@@ -3,6 +3,13 @@ description = Additions to DKAN for DemTools (http://dem.tools/dkan)
 core = 7.x
 package = DemTools
 
+; Additional modules for DemTools DKAN
+dependencies[] = hierarchical_select
+dependencies[] = elections_module
+dependencies[] = quicktabs
+dependencies[] = better_exposed_filters
+
+; Custom configuration
 dependencies[] = demtools
 dependencies[] = ndi_dkan_languages
 dependencies[] = ndi_dkan_question_topics
