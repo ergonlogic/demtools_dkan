@@ -14,7 +14,7 @@ function dkan_sitewide_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'admin_theme';
-  $strongarm->value = 'ndi_dkan_theme';
+  $strongarm->value = 'demtools_dkan_theme';
   $export['admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
