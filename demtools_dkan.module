@@ -1,3 +1,23 @@
 <?php
 
+/**
+ * Implements hook_modules_enabled().
+ */
+function demtools_dkan_modules_enabled($modules) {
+  if (in_array('dkan', $modules)) {
+    watchdog('demtools_dkan', 'Setting DemTools DKAN site name.');
+    variable_set('site_name', 'DKAN | English');
 
+    watchdog('demtools_dkan', 'Using DemTools DKAN Theme.');
+    theme_disable(array('nuboot_radix'));
+    theme_enable(array('demtools_dkan'));
+    variable_set('theme_default', 'demtools_dkan');
+
+    watchdog('demtools_dkan', 'Reverting DemTools DKAN custom Features.');
+    $features = demtools_get_features('demtools_dkan');
+    demtools_revert_features($features);
+
+    watchdog('demtools_dkan', 'Flushing all caches.');
+    drupal_flush_all_caches();
+  }
+}
