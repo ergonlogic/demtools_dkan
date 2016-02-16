@@ -9,6 +9,10 @@ dependencies[] = elections_module
 dependencies[] = quicktabs
 dependencies[] = better_exposed_filters
 
+; Additional DKAN Features for DemTools DKAN
+dependencies[] = visualization_entity_choropleth_bundle
+dependencies[] = visualization_entity_geojson_bundle
+
 ; Custom configuration
 dependencies[] = demtools
 dependencies[] = ndi_dkan_languages
