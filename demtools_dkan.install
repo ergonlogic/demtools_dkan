@@ -13,6 +13,6 @@ function demtools_dkan_install() {
 
   // Revert our custom Features.
   $features = demtools_get_features('demtools_dkan');
-  demtools_revert_features($features) {
+  demtools_revert_features($features);
 
 }
