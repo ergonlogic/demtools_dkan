@@ -3,6 +3,8 @@ description = Additions to DKAN for DemTools (http://dem.tools/dkan)
 core = 7.x
 package = DemTools
 
+features[features_api][] = api:2
+
 ; Additional modules for DemTools DKAN
 dependencies[] = hierarchical_select
 dependencies[] = elections_module
