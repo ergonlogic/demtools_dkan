@@ -18,6 +18,5 @@ dependencies[] = visualization_entity_geojson_bundle
 ; Custom configuration
 dependencies[] = demtools
 dependencies[] = ndi_dkan_languages
-dependencies[] = ndi_dkan_question_topics
 dependencies[] = ndi_dkan_translations
 dependencies[] = ndi_language_switcher
